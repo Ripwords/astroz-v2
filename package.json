@@ -23,8 +23,7 @@
   },
   "devDependencies": {
     "@primevue/nuxt-module": "^4.0.0",
-    "@vite-pwa/assets-generator": "^0.2.4",
-    "sharp": "^0.33.4",
-    "sharp-ico": "^0.1.5"
-  }
+    "@vite-pwa/assets-generator": "^0.2.4"
+  },
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
 }

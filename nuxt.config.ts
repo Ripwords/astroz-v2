@@ -8,6 +8,10 @@ export default defineNuxtConfig({
   },
   future: {
     compatibilityVersion: 4,
+    typescriptBundlerResolution: true,
+  },
+  dir: {
+    public: "public",
   },
   devtools: { enabled: true },
   nitro: {
@@ -36,6 +40,22 @@ export default defineNuxtConfig({
       short_name: "Astroz 🌌",
       theme_color: "#285eb5",
       start_url: "/",
+      screenshots: [
+        {
+          src: "img/screenshots/screenshot-wide.png",
+          sizes: "2880x1800",
+          type: "image/png",
+          form_factor: "wide",
+          label: "Astroz 🌌",
+        },
+        {
+          src: "img/screenshots/screenshot-mobile.png",
+          sizes: "461x826",
+          type: "image/png",
+          form_factor: "narrow",
+          label: "Astroz 🌌",
+        },
+      ],
     },
     pwaAssets: {
       config: true,
