@@ -17,5 +17,5 @@ export default defineConfig({
       },
     }),
   },
-  images: ["public/Logo.png"],
+  images: ["../public/Logo.png"],
 })

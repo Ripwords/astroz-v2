@@ -35,7 +35,6 @@ export default defineNuxtConfig({
       start_url: "/",
     },
     pwaAssets: {
-      image: "public/Logo.png",
       config: true,
     },
     devOptions: {
