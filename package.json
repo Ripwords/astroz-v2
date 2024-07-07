@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "assets": "pwa-assets-generator"
+    "assets": "pwa-assets-generator app/assets/img/Logo.png"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
