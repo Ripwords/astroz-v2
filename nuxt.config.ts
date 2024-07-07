@@ -14,6 +14,9 @@ export default defineNuxtConfig({
     public: "public",
   },
   devtools: { enabled: true },
+  nitro: {
+    preset: "netlify-edge",
+  },
   primevue: {
     options: {
       theme: {
