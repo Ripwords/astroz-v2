@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   },
   future: {
     compatibilityVersion: 4,
-    typescriptBundlerResolution: true,
   },
   dir: {
     public: "public",
