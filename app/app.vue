@@ -1,5 +1,22 @@
 <script lang="ts" setup>
+const description =
+  "Astroz is an app that provides utilities for astronomy enthusiasts and astrophotographers.";
+useSeoMeta({
+  description,
+  ogTitle: "Astroz 🌌",
+  ogDescription: description,
+  ogImage: "/Logo.png",
+  ogUrl: "https://astroz-v2.netlify.app",
+  twitterTitle: "Astroz 🌌",
+  twitterDescription: description,
+  twitterImage: "/Logo.png",
+  twitterCard: "summary",
+});
+
 useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
   meta: [
     {
       name: "apple-mobile-web-app-capable",
