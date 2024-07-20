@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   experimental: {
     typedPages: true,
   },
+  ssr: false,
   future: {
     compatibilityVersion: 4,
     typescriptBundlerResolution: true,
@@ -61,6 +62,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
     "@vite-pwa/nuxt",
-    "@nuxtjs/ionic"
+    "@nuxtjs/ionic",
   ],
-})
+});

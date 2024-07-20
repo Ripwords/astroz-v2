@@ -20,6 +20,7 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@ionic/vue": "^8.2.5",
     "@vite-pwa/assets-generator": "^0.2.4",
     "nuxt": "^3.12.4"
   },

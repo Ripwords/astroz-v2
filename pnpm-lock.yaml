@@ -30,6 +30,9 @@ importers:
         specifier: latest
         version: 3.4.33(typescript@5.5.3)
     devDependencies:
+      '@ionic/vue':
+        specifier: ^8.2.5
+        version: 8.2.5
       '@vite-pwa/assets-generator':
         specifier: ^0.2.4
         version: 0.2.4
