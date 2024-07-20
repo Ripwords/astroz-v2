@@ -2,7 +2,7 @@
 import { capitalize } from "vue";
 
 const header = computed(() =>
-  capitalize(String(useRouter().currentRoute.value.name))
+  capitalize(String(useRouter().currentRoute.value.name || ""))
 );
 </script>
 

@@ -63,5 +63,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@vite-pwa/nuxt",
     "@nuxtjs/ionic",
+    "@nuxtjs/leaflet",
+    "dayjs-nuxt"
   ],
 });
