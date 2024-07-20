@@ -16,5 +16,5 @@ export default defineNuxtPlugin(() => {
       },
     ],
     title: "Astroz 🌌",
-  })
-})
+  });
+});

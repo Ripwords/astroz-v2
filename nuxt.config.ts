@@ -1,5 +1,3 @@
-import Aura from "@primevue/themes/aura"
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
@@ -16,13 +14,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     preset: "netlify-edge",
-  },
-  primevue: {
-    options: {
-      theme: {
-        preset: Aura,
-      },
-    },
   },
   pwa: {
     workbox: {
@@ -61,7 +52,6 @@ export default defineNuxtConfig({
       config: true,
     },
     devOptions: {
-      enabled: true,
       suppressWarnings: true,
       type: "module",
     },
@@ -71,6 +61,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
     "@vite-pwa/nuxt",
-    "@primevue/nuxt-module",
+    "@nuxtjs/ionic"
   ],
 })

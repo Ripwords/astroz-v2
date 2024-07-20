@@ -1,6 +1,8 @@
 <script lang="ts" setup></script>
 <template>
-  <div>HI</div>
+  <ion-page>
+    <div>HI</div>
+  </ion-page>
 </template>
 
 <style></style>
